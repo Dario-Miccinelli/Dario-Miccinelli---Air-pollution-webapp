@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^6.0.0",
+    "webpack": "^5.23.0"
+  },
+  "name": "progetto-js-advanced",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

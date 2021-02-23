@@ -1,0 +1,110 @@
+body {
+    background: url('img/air.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+#result {
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#text {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#risultato {
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+
+
+
+button#posiz {
+    font-size: 22px;
+    border-radius: 10px 0px ;
+    padding: 10px;
+    background-color:#b6d1fc;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+#checkx {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+}
+
+#bottone {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px 0px;
+    background-color: #b6d1fc;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+#level {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#keep{
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.dm {
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width: 769px) {
+  #keep {
+      font-size: 18px;
+  }
+
+  body {
+      background-repeat: no-repeat;
+      max-width: 100%;
+  }
+}
+
+.social-links {
+    text-align: center;
+    transition: 0.5s;
+    padding-bottom: 60px;
+  }
+  .social-links a{
+    color:#fff;
+  }
+  
+  .social-links .fab{
+   
+    font-size: 70px;
+    line-height: 40px;
+    margin: 40px 5px 0;
+    cursor: pointer;
+    
+  }
+  
+  .social-links .fas {
+    font-size: 70px;
+    line-height: 40px;
+    margin: 40px 5px 0;
+    cursor: pointer;
+   
+  }
+  
