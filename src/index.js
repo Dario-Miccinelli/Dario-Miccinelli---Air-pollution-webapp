@@ -34,11 +34,10 @@ function callApi(latitude, longitude) {
 
        }
     )
-    .catch(
-      err => {
-        console.log(err)
+    catch(err) { console.log(err);
+	       })
 
-    })
+   
 }
 // GEOLOCAL.
 
