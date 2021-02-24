@@ -10,9 +10,10 @@ module.exports={
         filename: 'main.js',
         path: path.resolve(__dirname, 'static/js')
     },
-    plugins: [
+   plugins: [
         new Dotenv({
-            path: path.resolve(__dirname, '.env')
+            path: path.resolve(__dirname, '.env'),
+            systemvars: true,
         })
     ],
     devServer: {
